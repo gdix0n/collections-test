@@ -1,0 +1,10 @@
+---
+# Tower supports only project specific Ansible collections in job runs.
+# Tower installs collections in that file in the implicit project sync before a job run
+collections:
+  - name: community.kubernetes
+    source: https://galaxy.ansible.com
+    version: 1.1.0
+  - name: geerlingguy.php_roles
+    version: 0.9.3
+    source: https://galaxy.ansible.com
